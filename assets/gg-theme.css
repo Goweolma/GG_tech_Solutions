@@ -1,0 +1,108 @@
+:root{
+  --gg-primary: #5B8CFF;
+  --gg-secondary: #22D3EE;
+  --gg-dark: #0B1220;
+  --gg-light: #F3F4F6;
+  --gg-accent: #8B5CF6;
+}
+
+html, body {
+  background-color: var(--gg-dark) !important;
+  color: #E5E7EB !important;
+}
+
+a, a:visited { color: var(--gg-secondary) !important; }
+a:hover { color: var(--gg-primary) !important; }
+
+header, .navbar, .nav, .site-header {
+  background: linear-gradient(90deg, var(--gg-dark), rgba(11,18,32,0.85)) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+  backdrop-filter: blur(10px);
+}
+
+.hero, .masthead, .header-hero {
+  
+  color: #F8FAFC !important;
+}
+
+.btn-primary, .button.primary, .btn.btn-primary {
+  background: linear-gradient(135deg, var(--gg-primary), var(--gg-accent)) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.btn, .button, button {
+  border-radius: 12px !important;
+}
+
+.card, .feature, .pricing, .panel, .box {
+  background: rgba(255,255,255,0.05) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 16px !important;
+  color: #E5E7EB !important;
+}
+
+.section-title, h1, h2, h3 {
+  color: #EAF2FF !important;
+}
+
+footer {
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  color: #A5B4FC !important;
+  background: #0E1629 !important;
+}
+
+/* === GG THEME OVERRIDES === */
+:root{
+  --gg-primary: #5B8CFF;
+  --gg-secondary: #22D3EE;
+  --gg-dark: #0B1220;
+  --gg-light: #F3F4F6;
+  --gg-accent: #8B5CF6;
+}
+
+html, body {
+  background-color: var(--gg-dark) !important;
+  color: #E5E7EB !important;
+}
+
+a, a:visited { color: var(--gg-secondary) !important; }
+a:hover { color: var(--gg-primary) !important; }
+
+header, .navbar, .nav, .site-header {
+  background: linear-gradient(90deg, var(--gg-dark), rgba(11,18,32,0.85)) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+  backdrop-filter: blur(10px);
+}
+
+.hero, .masthead, .header-hero {
+  
+  color: #F8FAFC !important;
+}
+
+.btn-primary, .button.primary, .btn.btn-primary {
+  background: linear-gradient(135deg, var(--gg-primary), var(--gg-accent)) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.btn, .button, button {
+  border-radius: 12px !important;
+}
+
+.card, .feature, .pricing, .panel, .box {
+  background: rgba(255,255,255,0.05) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 16px !important;
+  color: #E5E7EB !important;
+}
+
+.section-title, h1, h2, h3 {
+  color: #EAF2FF !important;
+}
+
+footer {
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  color: #A5B4FC !important;
+  background: #0E1629 !important;
+}

@@ -1,0 +1,94 @@
+
+/* === Professional GG Tech Theme Enhancements === */
+:root {
+  --gg-primary: #5B8CFF;
+  --gg-secondary: #22D3EE;
+  --gg-dark: #0B1220;
+  --gg-light: #F3F4F6;
+  --gg-accent: #8B5CF6;
+  --gg-radius: 16px;
+  --gg-font-title: 'Inter', 'Montserrat', 'Poppins', sans-serif;
+  --gg-font-body: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: var(--gg-font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: var(--gg-dark);
+  color: #E5E7EB;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--gg-font-title);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header, .navbar {
+  background: linear-gradient(90deg, var(--gg-dark), rgba(11,18,32,0.85));
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.hero {
+  
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn, button, .button {
+  border-radius: var(--gg-radius);
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary, .button.primary {
+  background: linear-gradient(135deg, var(--gg-primary), var(--gg-accent));
+  border: none;
+  color: #fff !important;
+  box-shadow: 0 4px 14px rgba(91,140,255,0.4);
+}
+.btn-primary:hover {
+  box-shadow: 0 6px 20px rgba(91,140,255,0.6);
+  transform: translateY(-2px);
+}
+
+.card, .feature, .panel, .pricing, .box {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--gg-radius);
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+footer {
+  background: #0E1629;
+  color: #A5B4FC;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: var(--gg-secondary);
+  margin-bottom: 12px;
+  display: block;
+}
+
+img.logo, .site-logo {
+  max-height: 48px;
+}
